@@ -216,3 +216,41 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Cybersecurity & Hypervisor Custom Rules
+# ==========================================
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+~$*
+*.tmp
+
+# VMware virtual machine files
+*.vmdk
+*.vmem
+*.vmsd
+*.vmx
+*.vmxf
+*.nvram
+
+# Logs
+*.log
+
+# Certificates and secrets
+passwords.txt
+credentials.txt
+secrets.txt
+*.pfx
+*.cer
+*.key
+
+# VSCode local configuration
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json

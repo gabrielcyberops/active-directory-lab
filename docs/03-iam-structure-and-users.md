@@ -1,4 +1,3 @@
----
 
 ## Active Directory Environment Structure
 

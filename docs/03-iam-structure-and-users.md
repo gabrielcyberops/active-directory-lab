@@ -18,23 +18,29 @@ The directory hierarchy is structured as follows:
 
 ## Technical Deployment & Verification Evidence
 The following screenshot verifies the successful creation, structural hierarchy, and metadata/description enforcement of the Organizational Units within the `gabriel.local` domain:
-![ou-architecture-overview](../assets/screenshots/02-active-directory/ou-architecture-overview.png)
 
+![ou-architecture-overview](../assets/screenshots/03-iam-structure-and-users/ou-architecture-overview.png)
+
+---
 
 ### Administrative Accounts
 Dedicated administrative accounts were created within the Administration OU to separate privileged infrastructure management tasks from standard domain user operations.
-![administrative-accounts](../assets/screenshots/02-active-directory/administrative-accounts.png)
 
+![administrative-accounts](../assets/screenshots/03-iam-structure-and-users/administrative-accounts.png)
+
+---
 
 ### HR Department User Structure
 User accounts were deployed under the dedicated Departments/HR OU using standardized naming conventions and role-based account descriptions.
-![hr-department-user-structure](../assets/screenshots/02-active-directory/hr-department-user-structure.png)
 
+![hr-department-user-structure](../assets/screenshots/03-iam-structure-and-users/hr-department-user-structure.png)
+
+---
 
 ### Finance Department User Structure
 Finance department accounts were organized to simulate a structured corporate environment and prepare the domain for future access-control configurations.
-![finance-department-user-structure](../assets/screenshots/02-active-directory/finance-department-user-structure.png)
 
+![finance-department-user-structure](../assets/screenshots/03-iam-structure-and-users/finance-department-user-structure.png)
 
 ---
 ## Identity Management & Directory Hardening Overview
